@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_m"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <TextView
+            android:id="@+id/title_main"
+            style="@style/TextContent.Main"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:text="@string/title_main"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title_main"
+            android:layout_alignParentBottom="true"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/img_character"
+            android:src="@drawable/mobile_legends_logo" />
+
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle"
+        android:background="@drawable/list_background"
+        android:paddingTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/list_character"/>
+
+</LinearLayout>

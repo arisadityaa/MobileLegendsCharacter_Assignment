@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MobileLegendsCharacter</string>
+    <string name="title_main">List Hero\nMobile Legends: Bang Bang</string>
+    <string name="title_name">Name Character</string>
+    <string name="detail_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar hendrerit lacus eu efficitur. Sed aliquet, velit eu rutrum vehicula, enim nibh vehicula purus, et porttitor est massa nec neque. Duis at dui ut libero imperdiet ullamcorper. Ut in dolor condimentum, commodo erat vitae, iaculis nunc. Nam mollis justo nisi, eget finibus dui facilisis quis. Etiam at arcu laoreet, vestibulum sem id, interdum tellus. Mauris pharetra lorem non blandit sollicitudin. Suspendisse vel lacus rhoncus, tincidunt augue sit amet, efficitur nulla. Suspendisse potenti. In elit purus, vehicula ac pretium in, efficitur vel purus. Vestibulum ut elementum purus, nec dapibus dolor. Duis pretium ultricies nibh nec ornare.</string>
+    <string name="role">Role Character</string>
+    <string name="speciality">Speciality</string>
+    <string name="read_more">See\nDetail</string>
+    <string name="img_character">img Character</string>
+    <string name="about">About Me</string>
+    <string name="about_name">I Made Aris Aditya Nugraha</string>
+    <string name="id_game">70446410 (21xx)\nEarth ~</string>
+    <string name="button_content">button content</string>
+    <string name="list_character">List Character</string>
+    <string name="about_me">About Me</string>
+    <string name="hero_guide">Hero Guide</string>
+</resources>

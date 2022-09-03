@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_light_m"
+    android:orientation="vertical"
+    tools:context=".About">
+
+    <TextView
+        style="@style/TextContent.Main"
+        android:textColor="@color/black"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:text="@string/about"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/fotoku"/>
+
+    <TextView
+        style="@style/TextContent.Main"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:layout_marginTop="14dp"
+        android:text="@string/about_name"/>
+
+    <TextView
+        style="@style/TextContent.Main"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:textSize="24sp"
+        android:text="@string/id_game"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ImageButton
+            android:id="@+id/instagram"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginEnd="14dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/instagram"
+            android:backgroundTint="@color/blue_light_m"
+            android:contentDescription="@string/button_content" />
+
+        <ImageButton
+            android:id="@+id/linkedin"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginEnd="14dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/linkedin"
+            android:backgroundTint="@color/blue_light_m"
+            android:contentDescription="@string/button_content" />
+
+        <ImageButton
+            android:id="@+id/github"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/github"
+            android:backgroundTint="@color/blue_light_m"
+            android:contentDescription="@string/button_content" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

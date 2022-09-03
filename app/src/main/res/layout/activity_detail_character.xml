@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_m"
+    android:padding="8dp"
+    tools:context=".DetailCharacter">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgChar"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginEnd="14dp"
+            android:contentDescription="@string/img_character"
+            tools:src="@drawable/ml_icon" />
+
+        <TextView
+            android:id="@+id/nameChar"
+            style="@style/TextContent.Main"
+            android:layout_marginTop="32dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/imgChar"
+            tools:text="@string/title_name" />
+
+        <TextView
+            android:id="@+id/roleChar"
+            style="@style/TextContent.Main"
+            android:layout_marginTop="24dp"
+            android:textSize="16sp"
+            android:layout_toEndOf="@id/imgChar"
+            android:layout_below="@id/nameChar"
+            tools:text="@string/role"/>
+
+        <TextView
+            android:id="@+id/specialityChar"
+            style="@style/TextContent.Main"
+            android:layout_marginTop="24dp"
+            android:textSize="16sp"
+            android:layout_toEndOf="@id/imgChar"
+            android:layout_below="@id/roleChar"
+            tools:text="@string/speciality"/>
+
+        <TextView
+            android:id="@+id/descriptionChar"
+            style="@style/TextContent.Main"
+            android:layout_below="@id/imgChar"
+            android:layout_marginTop="14dp"
+            android:textSize="16sp"
+            tools:text="@string/detail_description" />
+
+        <Button
+            android:id="@+id/btnGuide"
+            style="@style/Button_Main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/descriptionChar"
+            android:text="@string/hero_guide"/>
+
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
